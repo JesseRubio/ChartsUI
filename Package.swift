@@ -11,7 +11,7 @@ let package = Package(
         .library(name: "Charts", targets: ["Charts"])
     ],
     dependencies: [
-        .package(url: "https://github.com/swift-extensions/swiftui-shapes.git", .upToNextMajor(from: "1.0.0"))
+        .package(url: "https://github.com/swift-extensions/ShapesUI.git", .upToNextMajor(from: "1.0.0"))
     ],
     targets: [
         .target(name: "Charts",dependencies: ["Shapes"])
